@@ -43,6 +43,11 @@ header nav ul {
 
     font-size: 3.5rem;
     font-weight: 700;
+}
 
-
+header nav button {
+    background-color: red;
+    padding: 10px;
+    border-radius: 100px;
+    border: none;
 }
