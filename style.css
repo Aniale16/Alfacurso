@@ -63,16 +63,18 @@ header nav button {
     
 }
 
+/* --------- cards --------- */
+
 .section__card{
     display: flex;
-    flex-wrap: wrap;
+    gap: 10px;
 }
 
 .card {
     display: flex;
     flex-direction: column;
     align-items: start;
-    flex-basis: 200px;
+    
 }
 
 .card__body__button{
@@ -83,4 +85,29 @@ header nav button {
     font-weight: 400;
     padding-left: 175px;
     padding-right: 175px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.section__prom{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.prom__body__button{
+    background-color: #730000;
+    border-radius: 100px;
+    border: none;
+    color: white;
+    font-weight: 400;
+    padding-left: 225px;
+    padding-right: 225px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.prom__body{
+    padding: 1rem;
 }
