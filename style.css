@@ -36,10 +36,6 @@ header nav ul {
     gap: 70px;
 }
 
-header nav ul li{
-    color: white;
-    background-color: #C4B7B2;
-}
 
 /* ------jumbotron------ */
 
@@ -67,7 +63,24 @@ header nav button {
     
 }
 
+.section__card{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .card {
     display: flex;
+    flex-direction: column;
+    align-items: start;
+    flex-basis: 200px;
+}
 
+.card__body__button{
+    background-color: #730000;
+    border-radius: 100px;
+    border: none;
+    color: white;
+    font-weight: 400;
+    padding-left: 175px;
+    padding-right: 175px;
 }
