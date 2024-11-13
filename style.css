@@ -1,0 +1,238 @@
+/* Seteo de estilo */
+
+
+* {
+    box-sizing: border-box;  
+    margin: unset;
+    padding: unset;
+    outline: unset;
+    list-style: none;
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+
+p {
+    opacity: 0.6;
+}
+
+
+
+/* Navbar */
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #C4B7B2;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+
+    
+    
+}
+header nav ul {
+    display: flex;
+    gap: 100px;
+}
+
+header nav ul li a{
+    color: black;
+    font-weight: 500;
+    font-size: 1.3rem;
+    }
+
+
+
+
+/* ------jumbotron------ */
+
+.heading-background{
+    
+    height: 750px;
+    padding: 50px 25px;
+    background-image: url(/assets/Background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.jumbotron h1 {
+
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+header nav button {
+    background-color: #730000;
+    padding: 10px;
+    border-radius: 100px;
+    border: none;
+    color: white;
+    font-weight: 500;
+    
+}
+
+/* --------- cards --------- */
+
+.section__card{
+    
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 10px;
+    flex-basis: 300px;
+    background-color: #ECECEC;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    flex-basis: 300px;
+    
+}
+
+.card__body__button{
+    background-color: #730000;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-weight: 400;
+    padding-left: 175px;
+    padding-right: 175px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.section__prom{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 150px;
+    padding-right: 150px;
+    flex-basis: 300px;
+    background-color: #ECECEC;
+}
+
+.prom__body__button{
+    background-color: #730000;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-weight: 400;
+    padding-left: 380px;
+    padding-right: 380px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.prom__body{
+    padding: 1rem;
+}
+
+.card__body__title{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.card__body__price{
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    background-color: #C4B7B2;
+    border-radius: 40px;
+    font-weight: 500;
+    opacity: 1;
+}
+
+.card__body__text{
+    padding: 10px;
+    
+}
+
+.prom__body__text{
+    padding-bottom: 12rem;
+    display: flex;
+    justify-content: space-around;
+    flex-basis: 100px;
+}
+
+.prom__body__price{
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    background-color: #C4B7B2;
+    border-radius: 40px;
+    font-weight: 500;
+    opacity: 1;
+}
+.prom__body__title{
+    font-size: 1.5rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* ----------Footer---------- */
+
+.footer{
+    display: flex;
+    background-color: #C4B7B2;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.footer__head__iso{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+footer div div h3{
+    font-weight: 600;
+    font-size: 1.2rem;
+} 
+
+.footer__content{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    gap: 45rem;
+    padding: 5px;
+}
+
+.footer__head__content{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.footer__copy{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50rem;
+}
+
+.footer__content__text__list__links{
+    color: black;
+    text-decoration: underline;
+}
+
+.footer__content__list__title{
+    font-weight: 500;
+}
+
+.footer__head__content__p{
+    padding-bottom: 10px;
+}
